@@ -9,6 +9,20 @@ This repository contains the NetCDF files used in the analysis presented in the 
 These datasets allow reproduction of the key results and figures in the manuscript. All data are provided in NetCDF-4 format and follow CF-1.8 conventions.
 
 ------------------------------------------------------------
+Download the datasets
+------------------------------------------------------------
+
+The NetCDF files used in this study can be downloaded from the GitHub Release:
+
+https://github.com/JulietteGamot/height_correction_SAR_altimetry/releases/tag/v1.0
+
+This includes:
+
+- ssha_S6A_SAR.nc
+- ssha_J3_LRM.nc
+- height_correction_S6A_SAR.nc
+
+------------------------------------------------------------
 File descriptions
 ------------------------------------------------------------
 
@@ -21,7 +35,7 @@ File descriptions
     - Units: meters
     - Purpose: Provides gridded SSHA values for Sentinel-6A SAR altimetry.
 
-2. **ssha_J3_LR.nc**
+2. **ssha_J3_LRM.nc**
 
     - Description: Along-track Sea Surface Height Anomaly (SSHA) from Jason-3 LRM altimeter, interpolated on the same theoretical grid.
     - Dimensions: (cycle, track, point) = (40, 254, 3127)
